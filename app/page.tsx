@@ -1,7 +1,5 @@
-export default function SnapturelyAdminPage() {
-  return (
-    <div className="min-h-screen flex items-center justify-center">
-      <p className="text-stone-400">Snapturely Admin</p>
-    </div>
-  );
+import { redirect } from "next/navigation";
+
+export default function RootPage() {
+  redirect("/dashboard");
 }
